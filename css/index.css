@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #3A3A3A;
+}
+
+
+/* Header section style */
+
+header {
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FF6347;
+}
+
+
+
+.nav-search {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-cart{
+    width: 36px;
+    height: 36px;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+
+}
+
+
+.nav-bar{
+    display: none;
+}
+
+
+
+/* Main section style */
+
+.manu-section {
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+
+
+.main-influencer {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #3A3A3A;
+}
+
+
+
+.camera{
+    position: absolute;
+    top: 185px; /* jekhane boshate chao */
+    right: 114px;
+    width: 440px; /* optional */
+}
+
+
+
+.btn-primary{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+
+
+.svg-arrow{
+    width: 25px;
+}
+
+
+.pa-ra {
+    font-weight: bold;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    div ul{
+        display: none;
+    }
+
+    .nav-search{
+        display: none;
+    }
+
+
+    header h1{
+        font-size: 18px;
+        margin: 20px auto;
+    }
+
+    .nav-cart{
+        width: 24px;
+        height: 24px;
+    }
+
+    .nav-bar{
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 28px;
+        width: 27px;
+        height: 25px;
+    }
+    
+}
+
+
+

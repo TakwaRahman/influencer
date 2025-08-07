@@ -91,16 +91,21 @@ nav a:hover {
 
 .btn-primary{
     background-color: #E02C6D;
+    border: 0;
     color: #FFFFFF;
+    margin-top: 20px;
     padding: 10px;
     border-radius: 50px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 
 
 .svg-arrow{
-    width: 25px;
+    padding-left: 5px;
+    width: 20px;
 }
 
 
@@ -114,6 +119,8 @@ nav a:hover {
 
 @media screen and (max-width: 768px) {
 
+
+/* nav bar style */
     div ul{
         display: none;
     }
@@ -131,6 +138,7 @@ nav a:hover {
     .nav-cart{
         width: 24px;
         height: 24px;
+        margin-right: -50px;
     }
 
     .nav-bar{
@@ -142,6 +150,54 @@ nav a:hover {
         width: 27px;
         height: 25px;
     }
+    
+
+/* main camera section style */
+
+    .manu-section{
+        padding: 0px;
+    }
+
+
+    .Circle{
+        margin-top: 70px;
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        top: 100px;
+    }
+
+
+    .camera{
+        width: 300px;
+        top: 250px;
+        right: 55px;
+    }
+
+    .pa-ra{
+        text-align: center;
+        margin-top: 500px;
+    }
+
+
+    .main-influencer{
+        font-size: 30px;
+    }
+
+
+    .pa-ra{
+        font-size: 20px;
+    }
+
+
+    .btn-primary{
+        
+        margin-top: 20px;
+    }
+
+    
+
+
     
 }
 

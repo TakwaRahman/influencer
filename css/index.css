@@ -211,6 +211,29 @@ nav a:hover {
     color: #E02C6D;
 }
 
+
+
+.gear-png{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    padding-top: 100px;
+    
+}
+
+
+.gear-para{
+    margin-right: 300px;
+    max-width: 420px;
+    
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
 
 

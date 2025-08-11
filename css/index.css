@@ -233,6 +233,7 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     margin-left: 200px;
+    margin-bottom: 120px;
     padding-top: 100px;
     
 }
@@ -276,6 +277,7 @@ nav a:hover {
 
 
 footer {
+    padding: 50px;
     background-color: #0A0826;
 }
 
@@ -292,7 +294,7 @@ footer {
 .footer-img{
     margin-top: 30px;
     margin: 20px;
-    width: 50px;
+    width: 30px;
     background-color: white;
 }
 
